@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Khushil Prajapati</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">project</a>
+    <a id="contact" onclick="window.location = 'mailto:pro.khushil@gmail.com'" class="animated fadeIn" style="animation-delay:2.2s;">Hire Me!</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Khushil Prajapati</h1>
+        <h2>Python Developer/ TechEnthusiast</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="window.location = 'mailto:pro.khushil@gmail.com'">Hire Me!</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://www.linkedin.com/in/khushil-prajapati/" target="_blank"class="social"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://github.com/Khushil-6" target="_blank" class="social"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://www.hackerrank.com/khushilkp007" target="_blank" class="social"><i class="fab fa-hackerrank"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>Projects</h1>
+        <section>
+            <h2>My Stocks</h2>
+            <p>
+                The application gets data from the Alpha Vantage API and provides real time Stocks, FX, Criptocurrency data to the application. whenever a user wants to know the current price of the stock, User can just enter the name of the company and can get the data when market Open, High and closed. 
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                <div><i class="fas fa-circle"></i>&nbsp;AlphaVantage</div>
+                <div><i class="fas fa-circle"></i>&nbsp;pandas</div>
+            </div>
+            <a href="https://github.com"><button class="btn_two">Check out!</button></a>
+        </section>
+        <section>
+            <h2>The Black Jack</h2>
+            <p>
+                The game of black jack made with python.</p> 
+            <p>The objective of the game is to beat the dealer in one of the following ways: </p>
+            <p>==> Get 21 points on the player's first two cards (called a "blackjack" or "natural"), without a dealer blackjack </p>
+            <p>==> Reach a final score higher than the dealer without exceeding 21; or</p>
+            <p>==> Let the dealer draw additional cards until their hand exceeds 21 ("busted").
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+            </div>
+            <button class="btn_two">Check out!</button>
+        </section>
+        
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>About</h1>
+            <section>
+                <h2>It's Me.</h2>
+                <p>
+                    I am a ComputerScience student and a developer working with Python and it's different modules and frameworks. I am a techenthusiast and love working with different types of products and applications. My main aim is to be a fullstack developer in the future and work with AI and machine learning and help make a better future. My everyday goes by watching videos or reading blogs and news about leatest technologys and products and I love to explore unknown areas as it gives new learning oportunities 
+                </p>
+            </section>
+            <section>
+                <h2>Skills.</h2>
+                <p>Excellent with Python and it's Various Liberaries and Modules including(Request, Anaconda, Regular Exp, OS, etc.)</p>
+                <p>Proficient with JavaScript, HTML, Flask, Django, Linux Shell, SQL</p>
+                <p >Understanding of Cloud computing, and basic understanding of cloud's such as AWS, Google cloud, Azure, working with API's, HTTP protocals</p>
+                <p>Very good knowledge of Object Oreiented Programming and Data structures</p>
+                <p>Worked with tools such as VM, Git, GitHub, Jupyter Notebook, Anaconda, Pycharm, Atom, Slack, Octave, Unity, Excel and VBA</p>
+            </section>
+        </div>
+       
+        <div id="footer">
+            made by <br> <a href="https://imfunniee.github.io">Khushil Prajapati</a>
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
